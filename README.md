@@ -9,13 +9,13 @@ Also created all of the wireframes (which I can add to my google drive and allow
 Help in DAO creations (if the prepared statement has any of the SQL keywords in ALL CAPS then I created the method).  
 Also did a fair amount of the unit testing (if a unit test uses Assert.assertEquals/Assert.assertTrue it was my creation; as opposed to just assertEquals/assertTrue)
 
-Created the front end validation for the author portal page, as well as the adding/removing of it for the hidden items.  Also the validation for the adding category modal.
+Created the front end validation for the author portal page, as well as the adding/removing of it for the hidden items.  Also the validation for the "add category" modal.
 
 Created the dynamic overlay of blog post info on the homepage previews. (the transparent popup when you mouse over a preview pic on homepage)
 
-Created the search function which correctly searches through #tags and also categories.
+Created the search service layer and endpoint, which correctly searches through #tags and also categories.  Uses enhanced for loop to iterate through lists.  getVerifiedAssociatedTags method listed below uses regex and database queries to complete a similar function via different implementations.
 
-Created the getVerifiedAssociatedTags() method in the JFoTagServiceLayer, which also shows some understanding of regex.  (believe it may be better to use the "g" global than the .replaceAll())
+Created the getVerifiedAssociatedTags() method in the JFoTagServiceLayer, which also shows some understanding of regex.  (believe it may be better to use the "g" regex global than the .replaceAll())
 
 Created the pagination on the Admin Post and Page portals.  This includes the entire AdminRestController.  Was NOT the one to attempt the pagination of the preview items on the home page.
 

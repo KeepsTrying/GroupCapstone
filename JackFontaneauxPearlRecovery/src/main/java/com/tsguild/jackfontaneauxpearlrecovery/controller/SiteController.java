@@ -74,7 +74,7 @@ public class SiteController {
     }
     
     @RequestMapping(value = "/search", method = RequestMethod.POST)
-    public String search(HttpServletRequest request, Model model) throws NoSearchResultsException {
+    public String search(HttpServletRequest request, Model model) {
         
         String searchRequest = request.getParameter("search");
         
