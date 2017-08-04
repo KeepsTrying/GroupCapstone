@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 23, 2017, 11:49:29 AM
+    Author     : scooke11 
+*/
+
+.landing-sidebar{
+    position: absolute;
+    z-index: 2;
+    background-color: darkgray;
+    height: 65%;
+    width: 12%;
+    opacity: 0.2;
+}
+
+#left-side {
+    left: 0px;
+}
+
+#right-side {
+   right: 0px;
+}
+
+.thum-buffer{
+    margin: 30px;
+}
+
+#blogSectionHeader {
+    text-align: left;
+    margin-right: 13%;
+    margin-bottom: 5px;
+}
+
+#thumDiv{
+    width:80%;
+    margin-left:15%;
+    margin-right: 5%;
+}
+
+#bufferDiv{
+    width: 100%;
+}
+
+div.transbox {
+    background-color: rgba(255,255,255,0.4);
+}
+
+div p {
+    visibility: hidden;
+    color: #000000;
+}
